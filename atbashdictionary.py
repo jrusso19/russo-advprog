@@ -28,5 +28,14 @@ atbash['y'] = 'b'
 atbash['z'] = 'a'
 atbash[' '] = ' '
 
-message=
-print atbash['j']
+
+def  main():
+    codedmessage = ""
+    message = raw_input("What is your message?")
+    message = message.lower()
+    for i in message:
+        codedmessage=codedmessage+(atbash[i])
+    print codedmessage
+
+
+main()
