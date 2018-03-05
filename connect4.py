@@ -63,6 +63,7 @@ def main():
             else:
                 print ("please input a number from 1 to 7.")
                 p2ok = 1
+        board(column1,column2,column3,column4,column5,column6,column7)
         p2ok = 1
 
 def board(column1,column2,column3,column4,column5,column6,column7):
@@ -74,7 +75,10 @@ def board(column1,column2,column3,column4,column5,column6,column7):
         column5.append("-")
         column6.append("-")
         column7.append("-")
-    for i in range (6):
-        print (column1[6-i], column2[6-i], column3[6-i], column4[6-i], column5[6-i], column6[6-i], column7[6-i])
-
+    print (column1[5], column2[5], column3[5], column4[5], column5[5], column6[5], column7[5])
+    print (column1[4], column2[4], column3[4], column4[4], column5[4], column6[4], column7[4])
+    print (column1[3], column2[3], column3[3], column4[3], column5[3], column6[3], column7[3])
+    print (column1[2], column2[2], column3[2], column4[2], column5[2], column6[2], column7[2])
+    print (column1[1], column2[1], column3[1], column4[1], column5[1], column6[1], column7[1])
+    print (column1[0], column2[0], column3[0], column4[0], column5[0], column6[0], column7[0])
 main()
